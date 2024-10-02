@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	aem "github.com/zhnt/ipquant/gozhfetch/em/aem"
+	aem "github.com/zhnt/zhfetch-go/em"
 )
 
 func main() {
