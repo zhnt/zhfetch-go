@@ -28,3 +28,14 @@ func TestGetStockList() {
 		}
 	}
 }
+
+func main() {
+
+	stockList, err := aem.GetStockList("SZ")
+
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	fmt.Println(stockList)
+}

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-package aem
-=======
 package em
->>>>>>> 1e7c99b (initial)
 
 import (
 	"encoding/json"
